@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.css';
-import Scrollanimation from './Dashboard/ScrollAnimation/Scrollanimation';
-import Animationonscroll from './Dashboard/ScrollAnimation/Scrollanimation';
+// import Animationonscroll from './Dashboard/Examples/ScrollAnimation/Scrollanimation';
+import Numbercount from './Dashboard/Examples/NumberCountup/Numbercount';
 
 function App() {
   return (
     <div className="App">
-      <Animationonscroll />
+      <Numbercount />
+      {/* <Animationonscroll /> */}
     </div>
   );
 }
