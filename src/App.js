@@ -1,14 +1,13 @@
-import React from 'react';
 import './App.css';
-import Homepage from './Dashboard/HomePage'
+import HomePage from './view/HomePage/HomePage';
+import Weather from './view/HomePage/Weather/Weather';
+
 function App() {
   return (
     <div className="App">
-       <Homepage />
+       <Weather />
     </div>
   );
 }
 
 export default App;
-
-

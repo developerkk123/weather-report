@@ -3,35 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@bit/nexxtway.react-rainbow.chart": "^1.10.0",
-    "@bit/nexxtway.react-rainbow.dataset": "^1.10.0",
-    "@bit/primefaces.primereact.chart": "^4.2.0",
-    "@bit/recharts.recharts.area": "^1.6.2",
-    "@bit/recharts.recharts.area-chart": "^1.6.2",
-    "@bit/recharts.recharts.bar": "^1.6.2",
-    "@bit/recharts.recharts.bar-chart": "^1.6.2",
-    "@bit/recharts.recharts.cartesian-grid": "^1.6.2",
-    "@bit/recharts.recharts.cartesian-utils": "^1.6.2",
-    "@bit/recharts.recharts.generate-categorical-chart": "^1.6.2",
-    "@bit/recharts.recharts.x-axis": "^1.6.2",
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.4.0",
-    "@testing-library/user-event": "^7.2.1",
-    "animate.css": "^4.1.0",
-    "apexcharts": "^3.19.2",
-    "node-sass": "^4.13.1",
-    "prismjs": "^1.19.0",
-    "react": "^16.12.0",
-    "react-animate-on-scroll": "^2.1.5",
-    "react-apexcharts": "^1.3.7",
-    "react-countup": "^4.3.3",
-    "react-dom": "^16.12.0",
-    "react-live": "^2.2.2",
-    "react-router-dom": "^5.1.2",
-    "react-scripts": "3.4.0",
-    "react-syntax-highlighter": "^12.2.1",
-    "semantic-ui-react": "^0.88.2",
-    "styled-components": "^5.0.1"
+    "@testing-library/jest-dom": "^5.13.0",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "axios": "^0.21.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "web-vitals": "^1.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -40,7 +19,10 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
   "browserslist": {
     "production": [
@@ -53,8 +35,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "babel-plugin-prismjs": "^2.0.1"
   }
 }

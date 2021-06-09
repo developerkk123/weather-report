@@ -1,0 +1,95 @@
+.App {
+    width: 50vw;
+}
+.widget {
+    border-radius: 6px;
+    position: absolute;
+    padding: 3rem 5rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.input-section {
+    align-items: flex-start;
+    display: flex;
+    margin: .5rem 0 1.5rem 0;
+}
+
+.input-section:focus-within {
+    border-bottom: 1px solid #333;
+    transition: all .3s ease-in-out;
+}
+
+.input-section .mdi {
+    color: #fff;
+    padding: 0.2rem 0.5rem 0 0;
+}
+
+.location-input {
+    display: flex;
+    align-items: flex-start;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 1.5rem;
+    max-width: 16rem;
+    outline: none;
+    padding-bottom: .3rem;
+}
+
+.temprature {
+    align-items: flex-start;
+    display: flex;
+    justify-content: start;
+    margin: .5rem 0 .5rem 0;
+}
+
+.temprature-info {
+    align-items: flex-start;
+    display: flex;
+    justify-content: start;
+    order: 0;
+}
+
+.temp-measurement {
+    color: #333;
+    font-size: 5rem;
+    font-weight: 500;
+    line-height: .85;
+}
+
+.temp-unit {
+    vertical-align: top;
+}
+
+.weather-title {
+    padding: 5px;
+    border-radius: 4px;
+    margin: 0 0 0.2rem .5rem;
+}
+
+.sub-info-text {
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(26, 11, 11);
+    margin: 0 1rem .4rem 0;
+    text-align: start;
+}
+.snow {
+    background-image: linear-gradient(0deg, #a5e5ee, #13bfd6);
+}
+.rain-cloudy {
+    background-image: linear-gradient(0deg, #b4d7f3, #1f91ee);
+}
+
+.clean {
+    background-image: linear-gradient(0deg, #a4d4eb, #20b2f5);
+}
+.rain {
+    background-image: linear-gradient(0deg, #afb3d1, #4b5bb4);
+}
+
+.storm {
+    background-image: linear-gradient(0deg, #d4c4c4, #6b6565);
+}
